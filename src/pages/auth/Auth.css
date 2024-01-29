@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set the height to the full viewport height */
+  background: linear-gradient(to bottom, #20888b, white);
+}
+
+.login-container {
+  width: 65%; /* Adjust the width as needed */
+  max-width: 1200px; /* Set a max-width if necessary */
+  background: #20888b;
+  margin: auto; /* Center horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center vertically */
+  padding: 3px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding and border in the total width */
+  /* height: 480px; */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1); /* Add shadow to the right and bottom */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-first-container {
+  background: rgb(219, 251, 239);
+  width: 65%;
+  max-width: 700px;
+  position: relative;
+}
+
+.inner-second-container {
+  width: 39%;
+  max-width: 500px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.login-button {
+  background: rgb(219, 251, 239);
+  border-radius: 4px;
+  margin: 1px;
+  padding: 6px;
+  border: 1px solid #ccc; /* Add a border for consistent styling */
+  width: 80px;
+}
+
+.login-container .inner-second-container .login-button a {
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+}
+
+.divider {
+  margin-top: 10px; /* Adjust the margin as needed */
+  margin-bottom: 10px;
+  border-top: 1px solid #ccc; /* Define the color and style of the line */
+}
+
+.text-color {
+  color: rgb(219, 251, 239);
+}
+
+.heading-page {
+  text-align: center;
+  margin-top: 15px;
+}

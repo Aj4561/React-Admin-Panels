@@ -1,0 +1,10 @@
+# Node.js
+node_modules/
+
+# Other project-specific files
+build/
+dist/
+*.log
+
+# Ignore local configuration files
+.env

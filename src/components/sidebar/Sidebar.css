@@ -1,0 +1,89 @@
+.sidebar-open {
+  width: 14%;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.sidebar-closed {
+  width: 4%;
+  height: 100%;
+  top: 61px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+.menu-list li a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set the color to black */
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+  padding: 3px;
+  margin-bottom: 5px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.menu-list li a:hover {
+  background-color: #ccc;
+}
+
+.menu-list li a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set the color to black */
+}
+
+.menu-list li .MuiButtonBase-root {
+  padding: 0; /* Set the padding to 0 ,IconButton padding set 0  */
+}
+
+.sidebar-title {
+  margin-left: 7px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nested-cell {
+  position: relative;
+}
+
+.nested-cell ul {
+  /* position: absolute; */
+  margin-top: 14px;
+  margin-right: 6px;
+  right: 0px;
+  text-decoration: none;
+  width: 100%;
+  list-style-type: none; /* Remove the default list item marker (usually a dot) */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.nested-cell li {
+  margin-bottom: 8px; /* Adjust spacing between nested navigation items */
+}
+
+.open-arrow {
+  position: absolute !important;
+  left: 251px !important;
+  background-color: #c6c5c5 !important;
+  border-radius: 50% !important;
+}
+
+.close-arrow {
+  position: absolute !important;
+  left: 70px !important;
+  background-color: #c6c5c5 !important;
+  border-radius: 50% !important;
+}
